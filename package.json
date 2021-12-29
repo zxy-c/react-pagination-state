@@ -1,0 +1,40 @@
+{
+  "name": "@zxy-cn/react-pagination-state",
+  "version": "0.0.1",
+  "description": "Pagination state of react framework",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "index.ts",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "publish:release": "npm run build && npm publish --access public"
+  },
+  "keywords": [
+    "fetch",
+    "http",
+    "xhr"
+  ],
+  "author": "zxy",
+  "license": "ISC",
+  "dependencies": {
+    "@zxy-cn/pagination-model": "latest",
+    "typescript": "^4.5.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.6",
+    "@types/mocha": "latest",
+    "@types/qs": "^6.9.7",
+    "@types/react": "^17.0.38",
+    "assert": "^2.0.0",
+    "mocha": "latest",
+    "ts-node": "^10.4.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "private": false
+}
