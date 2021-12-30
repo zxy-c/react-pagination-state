@@ -1,6 +1,6 @@
 {
   "name": "@zxy-cn/react-pagination-state",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pagination state of react framework",
   "main": "dist/index.js",
   "module": "dist/index.js",
