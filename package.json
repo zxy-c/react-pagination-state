@@ -1,6 +1,6 @@
 {
   "name": "@zxy-cn/react-pagination-state",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pagination state of react framework",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -22,7 +22,7 @@
     "typescript": "^4.5.3"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": ">=17.0.2"
   },
   "devDependencies": {
     "@types/assert": "^1.5.6",
